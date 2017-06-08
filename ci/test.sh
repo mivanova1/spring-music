@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e
 cd spring-music
-./gradlew clean assemble
+gradle wrapper
+gradlew build
