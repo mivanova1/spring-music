@@ -6,7 +6,7 @@ cd spring-music
 apk update
 apk add git
 git config --global user.email "killian.nolan@mycit.ie"
-git config --global user.name "Killian Nolan"
+git config --global user.name "Kill93"
 git init
 git add .
 git commit -m "hi"
