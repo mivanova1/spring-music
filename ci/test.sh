@@ -3,6 +3,7 @@ set -e
 
 cd spring-music
 ./gradlew clean assemble
+apk git
 git init
 git remote add github https://github.com/Kill93/spring-music
 git add .
