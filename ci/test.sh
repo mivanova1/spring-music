@@ -3,10 +3,11 @@ set -e
 
 cd spring-music
 ./gradlew clean assemble
-git remote add github https://github.com/Kill93/spring-music
-git add .
-git commit -m "hi"
-git push github master
+env -i git init
+env -i git remote add github https://github.com/Kill93/spring-music
+env -i git add .
+env -i git commit -m "hi"
+env -i git push github master
 
 
 
