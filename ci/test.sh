@@ -3,14 +3,11 @@ set -e
 
 cd spring-music
 ./gradlew clean assemble
-apt-get update
-apt-get upgrade
-apt-get install git
-git init
-git remote add github https://github.com/Kill93/spring-music
-git add .
-git commit -m "hi"
-git push github master
+echo "git init""
+echo "git remote add github https://github.com/Kill93/spring-music
+echo "git add ."
+echo "git commit -m "hi""
+echo "git push github master"
 
 
 
