@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-cd flight-school
+cd spring-music
 ./gradlew clean assemble
 
 
