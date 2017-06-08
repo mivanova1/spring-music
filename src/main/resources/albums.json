@@ -1,28 +1,28 @@
 [
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Nirvanananananna",
+        "artist": "Nirvana",
         "title": "Nevermind",
         "releaseYear": "1991",
         "genre": "Rock"
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Beach Boyzzzzzz",
+        "artist": "The Beach Boys",
         "title": "Pet Sounds",
         "releaseYear": "1966",
         "genre": "Rock"
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Marvin Gayeeeeeee",
+        "artist": "Leslie Mccarthy",
         "title": "What's Going On",
         "releaseYear": "1971",
         "genre": "Rock"
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Jimi Hendrix Experience",
+        "artist": "Leslie Mccarthy Experience",
         "title": "Are You Experienced?",
         "releaseYear": "1967",
         "genre": "Rock"
