@@ -1,5 +1,9 @@
-#!/bin/sh
+#!/usr/bin/env bash
 set -e
-cd spring-music
-gradle wrapper
-gradlew build
+
+export GRADLE_OPTS=-Dorg.gradle.native=false
+version=`cat version/number`
+cd music-repo
+#echo $version
+gradle assemble -PVersion=$version
+#ls build/libs/
