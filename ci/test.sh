@@ -3,9 +3,11 @@ set -e
 
 cd spring-music
 ./gradlew clean assemble
+apk update
 apk add git
+git config --global user.email "killian.nolan@mycit.ie"
+git config --global user.name "Killian Nolan"
 git init
-git remote add github https://github.com/Kill93/spring-music
 git add .
 git commit -m "hi"
 git push github master
