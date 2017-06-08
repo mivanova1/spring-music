@@ -7,5 +7,8 @@ image_resource:
 inputs:
 - name: spring-music
 
+output:
+
+
 run:
   path: ./spring-music/ci/test.sh
