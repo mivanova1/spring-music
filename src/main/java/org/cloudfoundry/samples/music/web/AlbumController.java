@@ -27,25 +27,25 @@ public class AlbumController {
 
     @RequestMapping(method = RequestMethod.PUT)
     public Album add(@RequestBody @Valid Album album) {
-        logger.info("Adding album " + album.getId());
+        logger.info("Adding aaaaalbum " + album.getId());
         return repository.save(album);
     }
 
     @RequestMapping(method = RequestMethod.POST)
     public Album update(@RequestBody @Valid Album album) {
-        logger.info("Updating album " + album.getId());
+        logger.info("Updating aaaalbum " + album.getId());
         return repository.save(album);
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public Album getById(@PathVariable String id) {
-        logger.info("Getting album " + id);
+        logger.info("Getting aaaaalbum " + id);
         return repository.findOne(id);
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public void deleteById(@PathVariable String id) {
-        logger.info("Deleting album " + id);
+        logger.info("Deleting aaaaalbum " + id);
         repository.delete(id);
     }
 }

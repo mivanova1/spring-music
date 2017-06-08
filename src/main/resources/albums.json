@@ -1,21 +1,21 @@
 [
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Nirvana",
+        "artist": "Nirvanananananna",
         "title": "Nevermind",
         "releaseYear": "1991",
         "genre": "Rock"
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Beach Boys",
+        "artist": "The Beach Boyzzzzzz",
         "title": "Pet Sounds",
         "releaseYear": "1966",
         "genre": "Rock"
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Marvin Gaye",
+        "artist": "Marvin Gayeeeeeee",
         "title": "What's Going On",
         "releaseYear": "1971",
         "genre": "Rock"
@@ -29,7 +29,7 @@
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "U2",
+        "artist": "U222222",
         "title": "The Joshua Tree",
         "releaseYear": "1987",
         "genre": "Rock"
