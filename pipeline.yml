@@ -9,7 +9,7 @@ resources:
   source:
     api: https://api.run.pivotal.io
     username: knolan@pivotal.io
-    password: P@ssword10
+    password: Tre@sure3375
     organization: knolan-org
     space: development
 
