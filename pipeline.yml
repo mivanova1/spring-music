@@ -1,0 +1,25 @@
+resources:
+- name: spring-music
+  type: git
+  source:
+    uri: https://github.com/Kill93/spring-music
+
+- name: staging-app
+  type: cf
+  source:
+    api: https://api.run.pivotal.io
+    username: knolan@pivotal.io
+    password: P@ssword10
+    organization: knolan-org
+    space: development
+
+jobs:
+- name: test-app
+  plan:
+  - get: spring-music
+    trigger: true
+  - task: tests
+    file: spring-music/build.yml
+  - put: staging-app
+    params:
+      manifest: spring-music/manifest.yml
