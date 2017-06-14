@@ -15,14 +15,14 @@
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Monika Ivanova",
+        "artist": "killian Nolan",
         "title": "What's Going On",
         "releaseYear": "1971",
         "genre": "Rock"
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Monika Experience",
+        "artist": "killian Nolan",
         "title": "Are You Experienced?",
         "releaseYear": "1967",
         "genre": "Rock"
