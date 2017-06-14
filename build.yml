@@ -5,6 +5,9 @@ image_resource:
   source: {repository: limaofeng/gradle-alpine}
 
 inputs:
+- name: spring-music-rep
+
+outputs:
 - name: spring-music
 
 run:
