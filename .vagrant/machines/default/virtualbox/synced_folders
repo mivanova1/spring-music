@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"mount_options":["dmode=777","fmode=777","uid=900","gid=900"],"guestpath":"/vagrant","hostpath":"/Users/knolan/concourse-spring/spring-music","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/vagrant":{"mount_options":["dmode=777","fmode=777","uid=900","gid=900"],"guestpath":"/vagrant","hostpath":"/Users/mivanova/concourse-spring/spring-music","disabled":false,"__vagrantfile":true}}}

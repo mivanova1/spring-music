@@ -15,7 +15,7 @@
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "killian Nolan",
+        "artist": "Something Else",
         "title": "What's Going On",
         "releaseYear": "1971",
         "genre": "Rock"
