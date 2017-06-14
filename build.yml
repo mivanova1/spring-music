@@ -5,10 +5,10 @@ image_resource:
   source: {repository: limaofeng/gradle-alpine}
 
 inputs:
-- name: spring-music-rep
+- name: spring-music
 
 outputs:
-- name: spring-music
+  - name: spring-music2
 
 run:
   path: ./spring-music/ci/test.sh
